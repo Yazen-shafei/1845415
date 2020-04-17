@@ -342,7 +342,7 @@ namespace project_demo1
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.ClientSize = new System.Drawing.Size(1342, 450);
+            this.ClientSize = new System.Drawing.Size(1238, 450);
             this.Controls.Add(this.BtnRandomNumber);
             this.Controls.Add(this.BtnAbout);
             this.Controls.Add(this.BtnCombo);
@@ -368,6 +368,7 @@ namespace project_demo1
             this.Controls.Add(this.BtnLogin);
             this.Name = "FrmMain";
             this.Text = "IE322_S20_KAU";
+            this.Load += new System.EventHandler(this.FrmMain_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -376,7 +377,8 @@ namespace project_demo1
 
         private void BtnCheckBox_Click(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            FrmCheck frm = new FrmCheck();
+            frm.ShowDialog();
         }
 
 

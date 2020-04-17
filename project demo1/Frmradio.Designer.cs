@@ -171,10 +171,7 @@ namespace project_demo1
 
         }
 
-        private void Frmradio_Load(object sender, EventArgs e)
-        {
-            throw new NotImplementedException();
-        }
+      
 
         #endregion
         private System.Windows.Forms.RadioButton RdoRed1;

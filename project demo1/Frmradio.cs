@@ -85,6 +85,9 @@ namespace project_demo1
             RdoYellow1.Checked = false;
         }
 
-       
+        private void Frmradio_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

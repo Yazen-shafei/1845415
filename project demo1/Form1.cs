@@ -111,5 +111,10 @@ namespace project_demo1
             FrmImage frm = new FrmImage();
             frm.ShowDialog();
         }
+
+        private void FrmMain_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
